@@ -24,7 +24,7 @@ printfn "    %5b: Positiv ang test" (ang (3.0,4.0) = atan2 4.0 3.0)
 //scale
 printfn "Unit: scale"
  //x,y er negative s er positiv
-printfn "    %5b: x,y er negative s er positiv scale test" ((scale 5.0 (-3.0,-4.0)) =(-15.0,-20.0 ))
+printfn "    %5b: x,y er negative, s er positiv scale test" ((scale 5.0 (-3.0,-4.0)) =(-15.0,-20.0 ))
  //x,y er 0, s er positiv
 printfn "    %5b: x,y er 0, s er positiv scale test" ((scale 5.0 (0.0,0.0)) =(0.0,0.0))
  //x,y,s er positiv
@@ -40,7 +40,7 @@ printfn "    %5b: x,y er negativ s er 0 scale test" ((scale 0.0 (-3.0,-4.0)) = (
  //x,y, s er 0
 printfn "    %5b: x,y, s er 0 scale test" ((scale 0.0 (0.0,0.0)) =(0.0,0.0))
   //x,y er positiv s er 0
-printfn "    %5b: x,y er positiv scale test" ((scale 0.0 (3.0,4.0)) =(0.0,0.0 ))
+printfn "    %5b: x,y er positiv, s er 0 scale test" ((scale 0.0 (3.0,4.0)) =(0.0,0.0 ))
 
 printfn "Unit: add"
 //add
