@@ -37,7 +37,7 @@ module vec2dv2
 ///<returns> Skalarproduktet(dot produktet) af to vektorer </returns>
  val dot : float -> float -> float -> float -> float
  
-//Den helt store forksel, er at når der skal returneres en vektor, så er man nødt til at returnere et 2 langt array, istedet for en tuple.
+//Den helt store forskel, er at når der skal returneres en vektor, så er man nødt til at returnere et 2 langt array, istedet for en tuple.
 //Dette betyder altså at man skal bruge A.[0] for x og A.[1] for y, frem for blot at kunne anvende fst og snd, til at få hver af de 2 koordinater.
 //Implementations filen vil se ud på nogenlunde samme måde, men når man skal bruge funktionerne, så bliver det mere besværligt, da man skal angive både x og y som parametre
 //frem for blot at kunne give tuplen som en parameter. 
