@@ -62,4 +62,4 @@ printfn "    %5b: v1 og v2 er nul dot test" (dot (0.0,0.0) (0.0,0.0) =0.0)
 //v1,v2 er negative
 printfn "    %5b: v1 og v2 negative dot test" (dot (-3.0,-4.0) (-3.0,-4.0) =25.0 )
 //v1 er positiv v2 er negativ
-printfn "    %5b: v2 negativ dot test" (dot (3.0,4.0) (-3.0,-4.0) = -25.0)
+printfn "    %5b: v1 er positiv, v2 negativ dot test" (dot (3.0,4.0) (-3.0,-4.0) = -25.0)
