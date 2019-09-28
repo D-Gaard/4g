@@ -49,9 +49,9 @@ printfn "    %5b: Positiv add test" (add (3.0,4.0) (3.0,4.0) =(6.0, 8.0) )
  //v1,v2 er 0
 printfn "    %5b: Nul add test" (add (0.0,0.0) (0.0,0.0) =(0.0,0.0))
 //v1,v2 er negative
-printfn "    %5b: v1 og v2 negative add test" (add (-3.0,-4.0) (-3.0,-4.0) =(-6.0, -8.0) )
+printfn "    %5b: Negativ add test" (add (-3.0,-4.0) (-3.0,-4.0) =(-6.0, -8.0) )
  //v1 er positiv v2 er negativ
-printfn "    %5b: v2 negativ add test" (add (3.0,4.0) (-3.0,-4.0) =(0.0, 0.0) )
+printfn "    %5b: v1 positiv, v2 negativ add test" (add (3.0,4.0) (-3.0,-4.0) =(0.0, 0.0) )
 
 //dot
 printfn "Unit: dot"
